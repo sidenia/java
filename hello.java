@@ -3,7 +3,7 @@ package dayone;
 public class Hello {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		System.out.println("Hello World");
 		//o ln leva o texto para a próxima linha, já o print não. veja:
 		System.out.println("Oie, ");
