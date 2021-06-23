@@ -6,7 +6,7 @@ public class PilhaVetor {
 	private int capacidade;
 
 	// construtores
-	public PilhaVetor() {
+	public PilhaVetor() { 
 		this(10);
 	}
 
@@ -18,8 +18,7 @@ public class PilhaVetor {
 
 	// métodos 
 	public boolean estaCheia() {
-		if (this.topo == this.capacidade) { 
-											
+		if (this.topo == this.capacidade) { 								
 			return true; 
 		}
 		return false;

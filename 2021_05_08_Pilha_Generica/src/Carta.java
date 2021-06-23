@@ -12,7 +12,7 @@ public class Carta {
 		this(5);
 	}
 	
-	public Carta( int capacidade){
+	public Carta(int capacidade){
 		this.capacidade = capacidade;
 	}
 	

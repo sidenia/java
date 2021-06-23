@@ -1,5 +1,6 @@
 //Coleção de inteiros, de double, 
 //pilha de tipo genérico pra aceitar qualquer tipo de dado qualquer = <> operador diamante
+
 public class PilhaVetorG <T> { //T é apelido para o meu tipo
 
 	//declaração de objetos

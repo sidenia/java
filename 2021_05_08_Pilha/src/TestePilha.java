@@ -14,7 +14,7 @@ public class TestePilha {
 		int c = Integer.parseInt(JOptionPane.showInputDialog("Digite a capacidade da pilha: "));
 		PilhaVetor pilhaVetor2 = new PilhaVetor(c);
 		pilhaVetor2.push(Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro valor: ")));
-		System.out.println();
+		System.out.println(pilhaVetor2);
 		
 		//pilhaVetor2.push(3);
 		//pilhaVetor2.push(5);

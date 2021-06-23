@@ -19,8 +19,8 @@ public class PilhaVetor {
 
 	// métodos //poderia simplificar o código acima da seguinte forma:
 	public boolean estaCheia() { // public boolean estaCheio () {
-		if (this.topo == this.capacidade) { // return this.topo ==
-											// this.capacidade;
+		if (this.topo == this.capacidade) { // return this.topo == this.capacidade;
+											
 			return true; // }
 		}
 		return false;

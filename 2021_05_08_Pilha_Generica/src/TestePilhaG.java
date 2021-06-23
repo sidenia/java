@@ -4,6 +4,7 @@ public class TestePilhaG {
 	public static void main(String[] args) {
 		PilhaVetorG <Carta> pilhaCartas = new PilhaVetorG<Carta>();
 		PilhaVetorG<Integer> pilhaInteiros = new PilhaVetorG<>(); //ele ja entende que o sgund <> é = Integer
+		PilhaVetorG<String> pilhaString = new PilhaVetorG<>(); // instanciação de pilha de String
 
 		Carta c1 = new Carta ("Copas", "J");
 		Carta c2 = new Carta ("Espada", "J");
@@ -18,6 +19,13 @@ public class TestePilhaG {
 
 		System.out.println(pilhaCartas);
 		System.out.println(pilhaInteiros);
+		
+		
+		String mor = "Renata"; // declara uma variável do tipo da pilha e
+		pilhaString.push(mor); //empurra para dentro da pilha
+		pilhaString.push(new String ("Sidenia")); // ou empurra direto.
+		System.out.println(pilhaString);
+		
 	}
 
 }
