@@ -1,5 +1,5 @@
 
-public class RecursionAnimated {
+public class Recursion {
 
 	public static int fatorial (int n){
 		if (n == 0 || n == 1){
@@ -38,4 +38,3 @@ for (int i = 13; i>0; i--){
 }
 }*/
 
-}
